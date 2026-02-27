@@ -25,10 +25,6 @@ QR Code Scanner is a Chrome browser extension that scans and decodes QR codes fo
 - When using the "Scan Visible Page" feature, the extension captures a screenshot of the current tab.
 - This screenshot is processed **locally in your browser** and is immediately discarded after scanning.
 
-### Image Fetching
-- When you click on a QR code image, the extension may fetch the image through its background process to bypass cross-origin restrictions.
-- These image requests go directly from your browser to the image's hosting server — **no data passes through any intermediary**.
-
 ### Local Storage
 - The extension temporarily stores the most recent scan result using Chrome's local storage API.
 - This data **never leaves your device** and is automatically cleared on the next scan.
@@ -41,7 +37,6 @@ QR Code Scanner is a Chrome browser extension that scans and decodes QR codes fo
 | `scripting` | To inject the QR scanning functionality into webpages |
 | `storage` | To temporarily store scan results locally |
 | `tabs` | To capture the visible tab for page-wide QR scanning |
-| `host_permissions (<all_urls>)` | To fetch images from any domain for QR code decoding |
 
 ## Third-Party Services
 
