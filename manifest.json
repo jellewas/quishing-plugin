@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "QR Code Scanner",
   "version": "1.0.0",
-  "description": "Scan and decode QR codes on any webpage. Detect phishing attempts by analyzing URLs for security threats like suspicious domains, URL shorteners, and deceptive links.",
+  "description": "Scan QR codes on any webpage and detect phishing attempts by analyzing URLs for suspicious domains and deceptive links.",
   "permissions": [
     "activeTab",
     "scripting",
